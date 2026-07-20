@@ -22,7 +22,7 @@ La procedura di compilazione è identica per entrambi i sistemi:
 
 ```bash
 # Clona il repository
-git clone [https://github.com/TUO-UTENTE/TUA-REPO.git](https://github.com/TUO-UTENTE/TUA-REPO.git)
+git clone https://github.com/linux07source/Lib-Ping.git
 cd TUA-REPO
 
 # Compila
