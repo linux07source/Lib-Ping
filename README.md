@@ -23,7 +23,7 @@ La procedura di compilazione è identica per entrambi i sistemi:
 ```bash
 # Clona il repository
 git clone https://github.com/linux07source/Lib-Ping.git
-cd Lib-Ping
+cd Lib-Ping/Libreria_ping
 
 # Compila
 mkdir build && cd build
