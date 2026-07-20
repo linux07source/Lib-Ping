@@ -1,14 +1,34 @@
 # Ping
+
 Una libreria C++ leggera e professionale per verificare la raggiungibilità di host via protocollo HTTP/HTTPS, basata su `libcurl`.
 
 ## Installazione
-### Requisiti
-- `libcurl` installata (`sudo apt install libcurl4-openssl-dev` su Debian/Ubuntu)
-- `cmake` (versione 3.10+)
 
-### Build
+### 1. Requisiti
+Assicurati di avere `cmake` (3.10+) installato sul tuo sistema.
+
+*   **Linux (Debian/Ubuntu/Pop!_OS):**
+    ```bash
+    sudo apt update
+    sudo apt install libcurl4-openssl-dev cmake build-essential
+    ```
+*   **macOS:**
+    ```bash
+    brew install curl cmake
+    ```
+
+### 2. Build dai sorgenti (Cross-Platform)
+La procedura di compilazione è identica per entrambi i sistemi:
+
 ```bash
+# Clona il repository
+git clone [https://github.com/TUO-UTENTE/TUA-REPO.git](https://github.com/TUO-UTENTE/TUA-REPO.git)
+cd TUA-REPO
+
+# Compila
 mkdir build && cd build
 cmake ..
 make
+
+# Installa nel sistema
 sudo make install
